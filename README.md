@@ -88,7 +88,7 @@ python -m streamlit run frontend/app.py
 
 ## 6. Video Demo Sản Phẩm
 Xem video hướng dẫn sử dụng và minh họa các tính năng của ứng dụng tại đường dẫn sau:
-* **Link Video:** []
-
+* **Link Video:** [Tại đây](https://youtu.be/ShfIqcIsZ5o) - https://youtu.be/ShfIqcIsZ5o
+[![Video demo Lab 2](https://i.ibb.co/JR6pnhQT/Screenshot-2026-05-05-144453.png)](https://youtu.be/ShfIqcIsZ5o)
 ---
 *Nguyễn Hữu Nhẩn - Khoa Công nghệ Thông tin - Trường Đại học Khoa học tự nhiên - ĐHQG TP.HCM.*
