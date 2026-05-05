@@ -43,6 +43,8 @@ Yêu cầu máy tính đã cài đặt Python 3.10 trở lên.
 Ứng dụng sử dụng file `secrets.toml` để lưu trữ các mã khóa bí mật. Bạn cần tạo thư mục `.streamlit` ở thư mục gốc và tạo file `secrets.toml` bên trong với cấu trúc sau:
 
 ```toml
+# 1. CẤU HÌNH FIREBASE CLIENT
+# Lấy tại: Firebase Console -> Project settings -> General -> Kéo xuống Your apps
 [firebase_client]
 apiKey="AI..."
 authDomain="..."
@@ -53,6 +55,10 @@ messagingSenderId="..."
 appId="..."
 measurementId="..."
 
+# 2. CẤU HÌNH FIREBASE ADMIN
+# Lấy tại: Firebase Console -> Project settings -> Service accounts 
+# -> Bấm "Generate new private key" (Sẽ tải về 1 file JSON)
+# Mở file JSON đó ra và copy từng dòng tương ứng và điều chỉnh vào đây.
 [firebase_admin]
 type="service_account"
 project_id="..."
